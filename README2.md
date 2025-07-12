@@ -11,4 +11,7 @@ Write a Python program that:
 ---
 
 ## ✅ Expected Output
+The sum of numbers from 1 to 50 is: 1275
+
+
 
