@@ -1,11 +1,11 @@
-# greeting.py
+# sum_1_to_50.py
 
-# Taking input from the user
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
+# Initialize the sum
+total = 0
 
-# Concatenating full name
-full_name = first_name + " " + last_name
+# Loop from 1 to 50 (inclusive)
+for i in range(1, 51):
+    total += i
 
-# Displaying personalized message
-print(f"\nHello, {full_name}! Welcome to the Python program.")
+# Display the result
+print(f"The sum of numbers from 1 to 50 is: {total}")
